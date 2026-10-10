@@ -1,23 +1,21 @@
-# Джарвис Виндовс
+# Jarvis Windows — erkaskul
 
-Голосовой и текстовый ИИ-ассистент **от erkaskul** для Windows 10/11 x64.
+A standalone desktop AI assistant for Windows. This repository contains the Windows download only.
 
-## Скачать приложение
+## Download
 
-**[Скачать Jarvis для Windows — ZIP](https://github.com/DoDgeClan/jarvis-windows/releases/download/v1.0.0/Jarvis-Next-Windows-1.0.zip)**
+**[Download Jarvis for Windows — ZIP](https://github.com/DoDgeClan/jarvis-windows/releases/download/v2.1.2/Jarvis-Windows-2_1_2.zip)**
 
-[Страница релиза 1.0](https://github.com/DoDgeClan/jarvis-windows/releases/tag/v1.0.0)
+[Current release](https://github.com/DoDgeClan/jarvis-windows/releases/tag/v2.1.2)
 
-1. Распакуйте весь архив в обычную папку.
-2. Дважды нажмите `Jarvis.exe`. Интерфейс откроется в браузере.
-3. Для общения с ИИ запустите `Настроить ключи.cmd`, добавьте API-ключ Gemini, OpenAI или Claude в `.env` и перезапустите приложение.
+1. Close an older Jarvis before starting this build.
+2. Extract the entire ZIP into a folder.
+3. Open `Jarvis.exe` and keep all adjacent files and folders.
+4. Inside Jarvis, open **Settings → API keys**, save your AI-provider key and select its matching provider. ElevenLabs uses a separate key for voice.
+5. Read `START HERE.txt` inside the archive for the full instructions.
 
-Ключи вводите только локально в `.env`, не публикуйте их на GitHub. Подробная инструкция находится внутри архива в `README.md`.
+The current download is the supplied `Jarvis-Windows-2_1_2.zip`, uploaded unchanged. Its internal package manifest still identifies the app as 2.0.1. Archive integrity was checked; application launch and AI-provider access were not retested for this supplied build.
 
-## Возможности
+API keys must stay on your computer. AI and voice services may charge for usage.
 
-Анимированный реактор, потоковый чат, голос браузера/Windows, память по просьбе пользователя, заметки, задачи, таймеры, погода, курсы валют и другие инструменты.
-
-Реализован 21 модуль; ещё 141 запись каталога — шаблоны адаптеров. Пройдено 27 автотестов и проверены пять публичных API. Облачная задержка 2–3 секунды не гарантируется. Mac-версия ещё не собрана.
-
-Готовый архив приложения размещён в **Releases**. Кнопка GitHub «Source code» скачивает содержимое репозитория, а не Windows-приложение.
+Older releases remain available in the release history. GitHub’s **Source code** download contains this repository, not the packaged Windows application.
