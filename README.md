@@ -1,13 +1,15 @@
 # Jarvis for Windows — by erkaskul
 
-[Download Jarvis Windows 2.1.4](https://github.com/DoDgeClan/jarvis-windows/releases/download/v2.1.4/Jarvis-Windows-2.1.4.zip)
+[Download Jarvis Windows 2.1.5](https://github.com/DoDgeClan/jarvis-windows/releases/download/v2.1.5/Jarvis-Windows-2.1.5.zip)
 
-Extract the entire ZIP and open Jarvis.exe.
+Extract the complete ZIP and open Jarvis.exe. Instructions and full app source are inside the ZIP. Existing keys/settings remain in the Jarvis profile.
 
-English is the default language. Change language and save your Gemini, OpenAI or Claude API key in Settings.
+**Custom ElevenLabs voice:** save your API key in Settings, select Custom voice ID, paste an ID or voice link, then press **Save & test selected voice**. This saves the voice and turns **Speak responses ON**. Custom voices are not silently substituted; access or credit errors are shown. Voice Library API access may require a paid ElevenLabs plan.
 
-Version 2.1.4 retains the original orb composition with smoother motion, high-DPI edges and softer audio-reactive glow. Expand **Vision & gestures** to share a selected screen for AI analysis or enable local camera hand tracking. Both features are off by default. Pinch toggles the microphone; an open palm stops the response. Optional observation sends one image every 12 seconds. Camera frames stay local; screen snapshots go to your selected AI provider. AI and voice usage may cost extra.
+**Screen analysis:** one click, one screenshot, one answer. The automatic 12-second observation loop has been removed. Camera tracking remains local; selected screenshots go to Gemini, OpenAI or Claude. Screen sharing and camera are off initially.
 
-37 automated tests passed. UI and local hand-model initialization were checked. Live webcam tracking, paid vision calls and native Windows launch have not been fully hardware-tested. Native verification in the managed workspace was blocked by that folder's ACL; extract into a normal user folder.
+Optional **Desktop control** preview opens installed apps, focuses or gracefully closes windows, clicks, types and scrolls. Enable it inside Jarvis and review each change before it runs. A cyan marker shows clicks. Global stop: **Ctrl+Alt+Shift+J**. Off after restart. Real mouse/keyboard execution has not yet been hardware-tested.
 
-Full app code, required hand-tracking files and instructions are inside the ZIP. [Release details](https://github.com/DoDgeClan/jarvis-windows/releases/tag/v2.1.4).
+English is the default; Russian is available in Settings. The existing orb design is preserved. **43 automated tests passed** and Windows helper C# compiled; local interface checks passed. Native app launch, webcam, real screen capture and your custom voice cloud access are not fully hardware-tested. API and voice services may cost extra.
+
+[Release details](https://github.com/DoDgeClan/jarvis-windows/releases/tag/v2.1.5)
