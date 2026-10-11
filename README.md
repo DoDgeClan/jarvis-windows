@@ -1,21 +1,13 @@
-# Jarvis Windows — erkaskul
+# Jarvis for Windows — by erkaskul
 
-A standalone desktop AI assistant for Windows. This repository contains the Windows download only.
+[Download Jarvis Windows 2.1.3](https://github.com/DoDgeClan/jarvis-windows/releases/download/v2.1.3/Jarvis-Windows-2.1.3.zip)
 
-## Download
+Extract the entire ZIP and open Jarvis.exe.
 
-**[Download Jarvis for Windows — ZIP](https://github.com/DoDgeClan/jarvis-windows/releases/download/v2.1.2/Jarvis-Windows-2_1_2.zip)**
+English is the default language. Change language and save your Gemini, OpenAI or Claude API key in Settings.
 
-[Current release](https://github.com/DoDgeClan/jarvis-windows/releases/tag/v2.1.2)
+Version 2.1.3 retains the original orb composition with smoother motion, high-DPI edges and softer audio-reactive glow. Expand **Vision & gestures** to share a selected screen for AI analysis or enable local camera hand tracking. Both features are off by default. Pinch toggles the microphone; an open palm stops the response. Optional observation sends one image every 12 seconds. Camera frames stay local; screen snapshots go to your selected AI provider. AI and voice usage may cost extra.
 
-1. Close an older Jarvis before starting this build.
-2. Extract the entire ZIP into a folder.
-3. Open `Jarvis.exe` and keep all adjacent files and folders.
-4. Inside Jarvis, open **Settings → API keys**, save your AI-provider key and select its matching provider. ElevenLabs uses a separate key for voice.
-5. Read `START HERE.txt` inside the archive for the full instructions.
+36 automated tests passed. UI and local hand-model initialization were checked. Live webcam tracking, paid vision calls and native Windows launch have not been fully hardware-tested. Native verification in the managed workspace was blocked by that folder's ACL; extract into a normal user folder.
 
-The current download is the supplied `Jarvis-Windows-2_1_2.zip`, uploaded unchanged. Its internal package manifest still identifies the app as 2.0.1. Archive integrity was checked; application launch and AI-provider access were not retested for this supplied build.
-
-API keys must stay on your computer. AI and voice services may charge for usage.
-
-Older releases remain available in the release history. GitHub’s **Source code** download contains this repository, not the packaged Windows application.
+Full app code, required hand-tracking files and instructions are inside the ZIP. [Release details](https://github.com/DoDgeClan/jarvis-windows/releases/tag/v2.1.3).
